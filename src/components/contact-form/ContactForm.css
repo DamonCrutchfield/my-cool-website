@@ -1,0 +1,22 @@
+#contact-form {
+    height: 100vh;
+}
+
+#name {
+    align-content: center;
+    justify-content: 'center'
+}
+
+@media screen and (max-width: 720px) {
+    #name {
+        align-items: center;
+        justify-content: 'center';
+        flex-direction: column
+    }
+    #date-and-time {
+
+        align-items: center;
+        justify-content: 'center';
+        flex-direction: column
+    }
+}
